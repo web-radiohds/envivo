@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Estios Max - Reproductores</title>
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./js/marquee.js"></script>
+</head>
+<body>
+<center><img src="./img/en_vivo.gif" alt="" class="logo" style="width:100%; height:auto;" /></center>
+    <div style="width:355px; position:relative; padding-bottom:5px; margin:0px auto;background-color:#333333; color:#FFFFFF !important; border-radius:5px; display:block;">
+        <!--<audio controls autoplay style="width:100%" src="http://188.40.137.143:10008/;"></audio>-->
+        <audio controls autoplay><source src="http://188.40.137.143:10008/;" type="audio/mp4" ></source></audio>
+        <span id="NombreRadio" style="color:#FFFFFF; ">
+            <marquee behavior="scroll" scrollamount="1" direction="left">Radio HDS Argentina</marquee>
+        </span>
+        <div style="width:70px;; background-color:#1a1a1a; text-align:right; height:30px;position:absolute; top:0px;right:0px; z-index:999; color:#FFFFFF !important; border-radius:5px;">
+            <a href="https://www.facebook.com/hdsrockradio" target="_blank"><img src="./img/fb.png" style="margin-top:3px !important; border:0px;"></a>            <a href="https://twitter.com/hdsradio" target="_blank"><img src="./img/tw.png"  style="margin-top:3px !important; margin-right:5px; border:0px;"></a>        </div>
+    </div>
+    <script type="text/javascript">
+    $(function () {
+        $('marquee').marquee("NombreRadio");
+
+    });
+    </script>
+
+</body>
+</html>
