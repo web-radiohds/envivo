@@ -4,8 +4,8 @@ jQuery(document).ready(function() {
         Background slideshow
     */
     $.backstretch([
-      "http://wp.enciclomedios.com/wp-content/uploads/2012/08/Consola-Radio.jpg",
-      "http://sevillawebradio.com/wp-content/uploads/2014/09/fondo_hd_169_mesa_mezclas_bn.jpg" 
+      "https://image.ibb.co/jgVgDk/Consola-Radio.jpg",
+      "https://image.ibb.co/czi1Dk/fondo-hd-169-mesa-mezclas-bn.jpg" 
     
     ], {duration: 10000, fade: 750});
 
